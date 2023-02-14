@@ -7,7 +7,7 @@ const generateTeam = team => {
 <div class="card employee-card">
     <div class="card-header bg-primary text-white">
         <h2 class="card-title">${manager.getName()}</h2>
-        <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>${manager.getRole()}</h3>
+        <h3 class="card-title">${manager.getRole()}</h3>
     </div>
     <div class="card-body">
         <ul class="list-group">
@@ -26,7 +26,7 @@ const generateTeam = team => {
 <div class="card employee-card">
     <div class="card-header bg-primary text-white">
         <h2 class="card-title">${engineer.getName()}</h2>
-        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>${engineer.getRole()}</h3>
+        <h3 class="card-title">${engineer.getRole()}</h3>
     </div>
     <div class="card-body">
         <ul class="list-group">
@@ -45,7 +45,7 @@ const generateTeam = team => {
 <div class="card employee-card">
     <div class="card-header bg-primary text-white">
         <h2 class="card-title">${intern.getName()}</h2>
-        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>${intern.getRole()}</h3>
+        <h3 class="card-title">${intern.getRole()}</h3>
     </div>
     <div class="card-body">
         <ul class="list-group">
@@ -92,13 +92,13 @@ module.exports = team => {
     <title>My Team</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleTeam.css">
     <script src="https://kit.fontawesome.com/c502137733.js"></script>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 jumbotron mb-3 team-heading bg-danger">
+            <div class="col-12 jumbotron mb-3 team-heading bg-primary">
                 <h1 class="text-center text-white">My Team</h1>
             </div>
         </div>

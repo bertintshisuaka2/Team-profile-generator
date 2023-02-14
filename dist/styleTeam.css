@@ -1,6 +1,7 @@
 
 .jumbotron {
-    border-radius: 0;
+    color: aquamarine;
+    border-radius: 3px;
 }
 
 .employee-card {
@@ -10,5 +11,5 @@
 }
 
 .card-body {
-    background-color: rgb(12, 8, 83);
+    background-color: rgb(27, 154, 208);
 }
